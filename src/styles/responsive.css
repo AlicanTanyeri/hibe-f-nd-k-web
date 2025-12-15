@@ -1,0 +1,18 @@
+@media (max-width: 1024px) {
+  :root {
+    --section-padding: 60px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 40px 0;
+  }
+  
+  h1 { font-size: 2.5rem !important; }
+  h2 { font-size: 2rem !important; }
+  
+  .container {
+    padding: 0 20px;
+  }
+}

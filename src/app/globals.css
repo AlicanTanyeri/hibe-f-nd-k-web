@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Kendi değişkenlerimizi çağırıyoruz */
+@import '../styles/variables.css';
+@import '../styles/responsive.css';
+
+/* Temel Ayarlar */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Container ve Component Sınıfları */
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%; /* Genişlik eklendi */
+}
+
+/* Eğer Tailwind container'ı kullanıyorsak yukarıdaki .container çakışabilir, 
+   ama manuel kontrol için bunu tutuyoruz. */
+
+.section-title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: block;
+  font-size: 0.9rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  transition: var(--transition);
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+/* stylelint configuration */
+@tailwindcss/postcss {
+  "extends": ["stylelint-config-standard"],
+  "plugins": ["@tailwindcss/postcss"],
+  "rules": {
+    "at-rule-no-unknown": [true, {"ignoreAtRules": ["tailwind"]}]
+  }
+}

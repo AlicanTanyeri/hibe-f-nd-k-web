@@ -1,0 +1,17 @@
+:root {
+  /* Marka Renkleri */
+  --primary-color: #5A3A1A; /* Koyu Kahverengi */
+  --accent-color: #C89B5C;  /* Altın Tonu */
+  --bg-color: #F7F2EC;      /* Krem/Doğal Arka Plan */
+  --white-color: #FFFFFF;
+  --text-dark: #2C1810;
+  --text-light: #666666;
+
+  /* Spacing */
+  --container-width: 1200px;
+  --section-padding: 80px 0;
+  --border-radius: 8px;
+  
+  /* Transitions */
+  --transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Naturel İç Fındık",
+    "description": "Giresun dağlarından toplanan, kabuğundan yeni ayrılmış en taze naturel fındıklar.",
+    "image": "/images/products/naturel.jpg",
+    "category": "Endüstriyel"
+  },
+  {
+    "id": 2,
+    "name": "Kavrulmuş Fındık",
+    "description": "Özel fırınlarımızda tam kıvamında kavrulmuş, zarı soyulmuş, aroması ve çıtırlığı zirvede.",
+    "image": "/images/products/kavrulmus.jpg",
+    "category": "Atıştırmalık"
+  },
+  {
+    "id": 3,
+    "name": "Fındık Ezmesi",
+    "description": "%100 doğal fındıktan üretilen, katkısız, akışkan ve yoğun kıvamlı fındık püresi.",
+    "image": "/images/products/ezme.jpg",
+    "category": "Endüstriyel"
+  },
+  {
+    "id": 4,
+    "name": "Kıyılmış Fındık (Pirinç)",
+    "description": "Pastacılık ve tatlılarınız için özenle kıyılmış, kullanıma hazır pirinç fındık.",
+    "image": "/images/products/pirinc.jpg",
+    "category": "Pastacılık"
+  }
+]
